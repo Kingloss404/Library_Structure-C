@@ -6,10 +6,6 @@
 dlist new_dlist()
 {
     return NULL;
-//On pourrait retourner un 0 au debut et à la fin
-//mais cela n'indiquerait pas vraiment que la liste
-//est vide, une liste pourrait porter des valeurs 
-//nulles mais ne pas être vide
 }
 
 Bool is_empty_dlist(dlist l)

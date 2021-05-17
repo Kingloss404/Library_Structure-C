@@ -17,9 +17,7 @@
 	}StackElement, *Stack;
 	
 
-	/* Prototypes des fonctions, plus de fonctions que prévue mais les autres fonctions sont à usages personneles,
-	   programmant autant que je peux et que je veux durant mon temps libre j'en ai besoin ( ces fonctions étant le fruit de recherches personnelles)
-	   pour améliorer mon langage C */
+	/* Prototypes des fonctions*/
 	Stack new_stack(void);
 	Bool is_empty_stack(Stack st);
 	void print_stack(Stack st);
